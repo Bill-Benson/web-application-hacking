@@ -1,3 +1,7 @@
+"""
+Web crawler to extract all links on a website and store them in a list
+"""
+
 import re
 import requests
 from urllib.parse import urljoin
