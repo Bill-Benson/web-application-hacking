@@ -2,7 +2,7 @@
 
 import requests
 
-target_url = "http://10.0.2.27/dvwa/login.php"
+target_url = ""
 data_dict = {"username": "admin", "password": "", "Login": "submit"}
 
 
