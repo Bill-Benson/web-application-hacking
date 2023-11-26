@@ -1,3 +1,7 @@
+"""
+Module to be called by the vulnerability scanner to chech for XSS vulnerabilities
+"""
+
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup  # Import BeautifulSoup from the bs4 module
 import requests
